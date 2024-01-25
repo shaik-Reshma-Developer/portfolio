@@ -1,0 +1,57 @@
+
+
+.App {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  height: 570px;
+  background-color:black;
+  
+
+}
+
+.slide img {
+  width:100%;
+  margin: 0 auto;
+  
+}
+
+.slide {
+  transform: scale(0.4);
+  transition: transform 300ms;
+  opacity: 0.5;
+  margin-top: 15%;
+  margin-bottom: 30%;
+  
+  
+}
+
+.activeSlide {
+  transform: scale(0.8);
+  opacity: 4;
+}
+
+.arrow {
+ 
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #030e15;
+}
+
+.next {
+  right: 0%;
+  top: 50%;
+}
+
+.prev {
+  left: 0%;
+  top: 50%;
+}
