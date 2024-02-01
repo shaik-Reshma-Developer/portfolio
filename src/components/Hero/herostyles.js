@@ -34,15 +34,20 @@ const useStyles=makeStyles((theme)=>({
       color: "white",
     },
     heroName :{
-      fontFamily: "Poppins",
+     
         letterSpacing: 4,
         fontSize: "5rem",
         // color : "#70CFEE",
+      
+        
+    },
+    reshma :{
+      fontFamily: "Poppins",
+       
         background: "linear-gradient(270deg,blue 20%,#70CFEE 60%)",
         // background: "linear-gradient(270deg,  pink 20%, #7a9ce0 30%, #79dfc8 90%)",
         backgroundClip: "text", // Standard property for newer versions of Chrome, Firefox, Safari, and Edge
         color: "transparent", 
-        
     },
     btn: {
       backgroundColor: "#70CFEE",
