@@ -21,7 +21,7 @@ function Hero() {
      <Grid item md={7} xs={12} className={classes.heroBox}>  
         <p className={classes.helloworld} >Hello !..</p>
         <p className={classes.heroName}>
-        <span  className={classes.heroSpan}>I'm</span> Reshma
+        <span  className={classes.heroSpan}>I'm</span> <span className={classes.reshma}> Reshma</span> 
        
         </p>
         
